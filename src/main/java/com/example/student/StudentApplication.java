@@ -1,4 +1,3 @@
-
 package com.example.student;
 
 import org.springframework.boot.SpringApplication;
@@ -11,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentApplication {
 
     public static void main(String[] args) {
+        System.out.println("Student Application started successfully");
         SpringApplication.run(StudentApplication.class, args);
     }
 
